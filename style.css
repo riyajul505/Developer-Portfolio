@@ -114,3 +114,37 @@ nav a{
 .skill-description{
     text-align: left;
 }
+.resume-column-tittle{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+    padding: 50px 130px;
+}
+.resume-container hr{
+    margin: 10px 0 10px 0;
+}
+.resume-item-description{
+    color: #757575;
+}
+.resume-item-institute{
+    color: #757575;
+    font-size: 20px;
+    font-weight: bold;
+}
+.resume-item-tittle{
+    color: #474747;
+    font-size: 25px;
+    font-weight: bold;
+}
+.resume-item{
+    padding: 10px 10px 10px 0;
+}
+
+.donwload-cv{
+    text-align: center;
+    margin-top: 10px;
+}
