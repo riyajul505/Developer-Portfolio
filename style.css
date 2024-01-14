@@ -172,3 +172,36 @@ footer{
     display: block;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 576px) {
+    .about{
+        padding: 10px;
+        width: 90%;
+        height: 100%;
+    }
+    .about-info-container{
+        flex-direction: column;
+        height: 100%;
+    }
+    #what-do-desc{
+        padding: 10px;
+    }
+    .skill-container, footer{
+        flex-direction: column;
+    }
+    .resume-container{
+        flex-direction: column;
+        padding: 5px;
+    }
+    footer{
+        padding: 5px;
+    
+    }
+    .footer-column{
+        margin: auto;
+        width: 90%;
+    }
+    .social-icons{
+        margin: 0 0 0 40px;
+    }
+}   
